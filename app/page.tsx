@@ -50,7 +50,7 @@ export default function RealEstateConceptPlatform() {
 
               <button className="px-6 py-4 rounded-2xl border border-white/20 hover:bg-white/5 transition">
                 View Portfolio
-              </button><a
+              <a
   href="https://wa.me/971585503831"
   target="_blank"
   className="px-6 py-4 rounded-2xl bg-green-500 text-white font-medium hover:scale-105 transition"
@@ -259,7 +259,6 @@ export default function RealEstateConceptPlatform() {
           ))}
         </div>
       </section>
-
       <section className="border-t border-white/10">
         <div className="max-w-5xl mx-auto px-6 py-24 text-center">
           <p className="text-sm uppercase tracking-[0.2em] text-white/50 mb-4">
@@ -297,7 +296,6 @@ export default function RealEstateConceptPlatform() {
           </div>
         </div>
       </section>
-
       <section className="px-6 pb-24">
         <div className="max-w-6xl mx-auto rounded-[40px] overflow-hidden border border-white/10 bg-gradient-to-br from-white/10 to-white/5 p-12 lg:p-20 text-center">
           <p className="uppercase tracking-[0.2em] text-sm text-white/50 mb-5">
@@ -320,8 +318,6 @@ export default function RealEstateConceptPlatform() {
 >
   Contact Us
 </a>
-            </button>
-
             <button className="px-8 py-4 rounded-2xl border border-white/20 hover:bg-white/5 transition">
               WhatsApp Inquiry
             </button>
