@@ -166,6 +166,52 @@ export default function RealEstateConceptPlatform() {
   </div>
 </section>
 
+<section className="max-w-7xl mx-auto px-6 py-24 border-t border-white/10">
+  <div className="mb-16">
+    <p className="text-sm uppercase tracking-[0.2em] text-white/40">
+      Our Process
+    </p>
+
+    <h2 className="mt-4 text-4xl lg:text-6xl font-semibold">
+      Fast and efficient concept development
+    </h2>
+  </div>
+
+  <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+    <div className="rounded-[28px] border border-white/10 bg-white/5 p-8">
+      <div className="text-5xl font-bold text-white/20">01</div>
+      <h3 className="mt-6 text-2xl font-semibold">Share Your Vision</h3>
+      <p className="mt-4 text-white/60">
+        Send land plots, sketches, references or development ideas.
+      </p>
+    </div>
+
+    <div className="rounded-[28px] border border-white/10 bg-white/5 p-8">
+      <div className="text-5xl font-bold text-white/20">02</div>
+      <h3 className="mt-6 text-2xl font-semibold">AI Concept Creation</h3>
+      <p className="mt-4 text-white/60">
+        We generate premium architectural concepts and layouts rapidly.
+      </p>
+    </div>
+
+    <div className="rounded-[28px] border border-white/10 bg-white/5 p-8">
+      <div className="text-5xl font-bold text-white/20">03</div>
+      <h3 className="mt-6 text-2xl font-semibold">Refinement</h3>
+      <p className="mt-4 text-white/60">
+        Concepts are refined for branding, aesthetics and presentation quality.
+      </p>
+    </div>
+
+    <div className="rounded-[28px] border border-white/10 bg-white/5 p-8">
+      <div className="text-5xl font-bold text-white/20">04</div>
+      <h3 className="mt-6 text-2xl font-semibold">Delivery</h3>
+      <p className="mt-4 text-white/60">
+        Final concepts delivered within 24-48 hours ready for investors or clients.
+      </p>
+    </div>
+  </div>
+</section>
+
       <section className="max-w-7xl mx-auto px-6 py-24">
         <div className="flex items-end justify-between gap-6 mb-12">
           <div>
