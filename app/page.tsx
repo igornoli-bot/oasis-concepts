@@ -1,0 +1,188 @@
+export default function RealEstateConceptPlatform() {
+  const projects = [
+    {
+      title: 'Bali Courtyard Villas',
+      description: 'AI-assisted concept for a 5-villa tropical development with private pools and integrated landscaping.',
+      image: 'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop'
+    },
+    {
+      title: 'Desert Horizon Residences',
+      description: 'Luxury desert-inspired villa concept focused on investors and boutique developments.',
+      image: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1200&auto=format&fit=crop'
+    },
+    {
+      title: 'Modern Resort Compound',
+      description: 'Small-scale resort visualization with communal pool, masterplan and premium aesthetics.',
+      image: 'https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?q=80&w=1200&auto=format&fit=crop'
+    }
+  ]
+
+  return (
+    <div className="min-h-screen bg-neutral-950 text-white">
+      <section className="relative overflow-hidden border-b border-white/10">
+        <div className="absolute inset-0 bg-gradient-to-br from-amber-500/10 via-transparent to-cyan-500/10" />
+
+        <div className="relative max-w-7xl mx-auto px-6 py-24 grid lg:grid-cols-2 gap-14 items-center">
+          <div>
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-sm mb-6">
+              AI Concept Visualization Studio
+            </div>
+
+            <h1 className="text-5xl lg:text-7xl font-semibold leading-tight tracking-tight">
+              Turn land and ideas into premium villa concepts.
+            </h1>
+
+            <p className="mt-6 text-lg text-white/70 max-w-xl leading-relaxed">
+              Fast AI-assisted visualizations for developers, land owners and real estate investors. Delivering concept renders, layouts and branded presentations within 24-48h.
+            </p>
+
+            <div className="mt-10 flex flex-wrap gap-4">
+              <button className="px-6 py-4 rounded-2xl bg-white text-black font-medium hover:scale-105 transition">
+                Request Concept
+              </button>
+
+              <button className="px-6 py-4 rounded-2xl border border-white/20 hover:bg-white/5 transition">
+                View Portfolio
+              </button>
+            </div>
+
+            <div className="mt-10 grid grid-cols-3 gap-6 max-w-lg">
+              <div>
+                <div className="text-3xl font-semibold">24h</div>
+                <div className="text-sm text-white/60 mt-1">Fast delivery</div>
+              </div>
+
+              <div>
+                <div className="text-3xl font-semibold">3D</div>
+                <div className="text-sm text-white/60 mt-1">Luxury concepts</div>
+              </div>
+
+              <div>
+                <div className="text-3xl font-semibold">PDF</div>
+                <div className="text-sm text-white/60 mt-1">Investor-ready decks</div>
+              </div>
+            </div>
+          </div>
+
+          <div className="relative">
+            <div className="absolute -inset-4 bg-gradient-to-r from-amber-500/20 to-cyan-500/20 blur-3xl rounded-full" />
+
+            <img
+              src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1400&auto=format&fit=crop"
+              alt="Luxury Villa"
+              className="relative rounded-[32px] shadow-2xl border border-white/10"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section className="max-w-7xl mx-auto px-6 py-24">
+        <div className="flex items-end justify-between gap-6 mb-12">
+          <div>
+            <p className="text-sm uppercase tracking-[0.2em] text-white/50 mb-3">
+              Selected Concepts
+            </p>
+            <h2 className="text-4xl font-semibold">
+              Portfolio Preview
+            </h2>
+          </div>
+
+          <p className="text-white/60 max-w-md text-right">
+            Conceptual visualizations for villa developments, boutique resorts and modern residential compounds.
+          </p>
+        </div>
+
+        <div className="grid md:grid-cols-3 gap-8">
+          {projects.map((project, index) => (
+            <div
+              key={index}
+              className="group bg-white/5 border border-white/10 rounded-[28px] overflow-hidden hover:-translate-y-2 transition duration-300"
+            >
+              <div className="overflow-hidden">
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="h-72 w-full object-cover group-hover:scale-105 transition duration-500"
+                />
+              </div>
+
+              <div className="p-6">
+                <h3 className="text-2xl font-medium mb-3">
+                  {project.title}
+                </h3>
+
+                <p className="text-white/65 leading-relaxed">
+                  {project.description}
+                </p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="border-t border-white/10">
+        <div className="max-w-5xl mx-auto px-6 py-24 text-center">
+          <p className="text-sm uppercase tracking-[0.2em] text-white/50 mb-4">
+            How it works
+          </p>
+
+          <h2 className="text-5xl font-semibold leading-tight">
+            Send your plot. Receive a premium concept.
+          </h2>
+
+          <div className="grid md:grid-cols-3 gap-8 mt-16 text-left">
+            <div className="p-8 rounded-[28px] bg-white/5 border border-white/10">
+              <div className="text-5xl font-semibold text-white/20">01</div>
+              <h3 className="text-2xl mt-6 mb-3 font-medium">Share your idea</h3>
+              <p className="text-white/65 leading-relaxed">
+                Send a plot image, dimensions or rough sketch with your vision.
+              </p>
+            </div>
+
+            <div className="p-8 rounded-[28px] bg-white/5 border border-white/10">
+              <div className="text-5xl font-semibold text-white/20">02</div>
+              <h3 className="text-2xl mt-6 mb-3 font-medium">We visualize it</h3>
+              <p className="text-white/65 leading-relaxed">
+                AI-assisted luxury renders, layouts and development concepts are generated rapidly.
+              </p>
+            </div>
+
+            <div className="p-8 rounded-[28px] bg-white/5 border border-white/10">
+              <div className="text-5xl font-semibold text-white/20">03</div>
+              <h3 className="text-2xl mt-6 mb-3 font-medium">Present & sell</h3>
+              <p className="text-white/65 leading-relaxed">
+                Use the visuals for investors, clients, feasibility discussions or marketing.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="px-6 pb-24">
+        <div className="max-w-6xl mx-auto rounded-[40px] overflow-hidden border border-white/10 bg-gradient-to-br from-white/10 to-white/5 p-12 lg:p-20 text-center">
+          <p className="uppercase tracking-[0.2em] text-sm text-white/50 mb-5">
+            Start today
+          </p>
+
+          <h2 className="text-4xl lg:text-6xl font-semibold leading-tight max-w-4xl mx-auto">
+            Premium concepts without waiting weeks for a studio.
+          </h2>
+
+          <p className="mt-6 text-lg text-white/65 max-w-2xl mx-auto leading-relaxed">
+            Ideal for developers, brokers, land owners and boutique hospitality projects.
+          </p>
+
+          <div className="mt-10 flex justify-center gap-4 flex-wrap">
+            <button className="px-8 py-4 rounded-2xl bg-white text-black font-medium hover:scale-105 transition">
+              Contact Us
+            </button>
+
+            <button className="px-8 py-4 rounded-2xl border border-white/20 hover:bg-white/5 transition">
+              WhatsApp Inquiry
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
+  )
+}
