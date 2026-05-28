@@ -46,9 +46,8 @@ export default function RealEstateConceptPlatform() {
 
               <button className="px-6 py-4 rounded-2xl border border-white/20 hover:bg-white/5 transition">
                 View Portfolio
-              </button>
-              <a
-  href="https://wa.me/971585503831
+              </button><a
+  href="https://wa.me/971585503831"
   target="_blank"
   className="px-6 py-4 rounded-2xl bg-green-500 text-white font-medium hover:scale-105 transition"
 >
@@ -182,23 +181,14 @@ export default function RealEstateConceptPlatform() {
             Ideal for developers, brokers, land owners and boutique hospitality projects.
           </p>
 
-          <d<div className="mt-10 flex flex-wrap gap-4">
-  <button className="px-6 py-4 rounded-2xl bg-white text-black font-medium hover:scale-105 transition">
-    Request Concept
-  </button>
+          <div className="mt-10 flex justify-center gap-4 flex-wrap">
+            <button className="px-8 py-4 rounded-2xl bg-white text-black font-medium hover:scale-105 transition">
+              Contact Us
+            </button>
 
-  <button className="px-6 py-4 rounded-2xl border border-white/20 hover:bg-white/5 transition">
-    View Portfolio
-  </button>
-
-  <a
-    href="https://wa.me/971585503831"
-    target="_blank"
-    className="px-6 py-4 rounded-2xl bg-green-500 text-white font-medium hover:scale-105 transition"
-  >
-    WhatsApp Inquiry
-  </a>
-</div>
+            <button className="px-8 py-4 rounded-2xl border border-white/20 hover:bg-white/5 transition">
+              WhatsApp Inquiry
+            </button>
           </div>
         </div>
       </section>
