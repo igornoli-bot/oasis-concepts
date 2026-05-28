@@ -84,6 +84,87 @@ export default function RealEstateConceptPlatform() {
           </div>
         </div>
       </section>
+<section className="max-w-7xl mx-auto px-6 py-24">
+  <div className="mb-16">
+    <p className="text-sm uppercase tracking-[0.2em] text-white/40">
+      Our Services
+    </p>
+
+    <h2 className="mt-4 text-4xl lg:text-6xl font-semibold">
+      Premium development visualization services
+    </h2>
+  </div>
+
+  <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+    <div className="rounded-3xl border border-white/10 p-8 bg-white/5">
+      <h3 className="text-2xl font-semibold">
+        Concept Visualization
+      </h3>
+
+      <p className="mt-4 text-white/60">
+        High-end AI-assisted architectural concepts for villas,
+        resorts and modern developments.
+      </p>
+    </div>
+
+    <div className="rounded-3xl border border-white/10 p-8 bg-white/5">
+      <h3 className="text-2xl font-semibold">
+        Masterplanning
+      </h3>
+
+      <p className="mt-4 text-white/60">
+        Conceptual layouts and development planning for boutique
+        hospitality and residential projects.
+      </p>
+    </div>
+
+    <div className="rounded-3xl border border-white/10 p-8 bg-white/5">
+      <h3 className="text-2xl font-semibold">
+        Investor Presentations
+      </h3>
+
+      <p className="mt-4 text-white/60">
+        Premium visuals and branded presentations to support
+        investors, developers and sales teams.
+      </p>
+    </div>
+
+    <div className="rounded-3xl border border-white/10 p-8 bg-white/5">
+      <h3 className="text-2xl font-semibold">
+        Resort Concepts
+      </h3>
+
+      <p className="mt-4 text-white/60">
+        Tropical hospitality concepts designed for modern tourism
+        and experiential living.
+      </p>
+    </div>
+
+    <div className="rounded-3xl border border-white/10 p-8 bg-white/5">
+      <h3 className="text-2xl font-semibold">
+        AI-Assisted Development Design
+      </h3>
+
+      <p className="mt-4 text-white/60">
+        Fast conceptual development iterations powered by AI
+        visualization workflows.
+      </p>
+    </div>
+
+    <div className="rounded-3xl border border-white/10 p-8 bg-white/5">
+      <h3 className="text-2xl font-semibold">
+        Branded Concept Packages
+      </h3>
+
+      <p className="mt-4 text-white/60">
+        Complete concept packages including renders, layouts,
+        branding direction and presentation assets.
+      </p>
+    </div>
+
+  </div>
+</section>
 
       <section className="max-w-7xl mx-auto px-6 py-24">
         <div className="flex items-end justify-between gap-6 mb-12">
