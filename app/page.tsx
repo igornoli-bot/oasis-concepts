@@ -1,20 +1,20 @@
 export default function RealEstateConceptPlatform() {
   const projects = [
-    {
-      title: 'Bali Courtyard Villas',
-      description: 'AI-assisted concept for a 5-villa tropical development with private pools and integrated landscaping.',
-      image: 'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop'
-    },
-    {
-      title: 'Desert Horizon Residences',
-      description: 'Luxury desert-inspired villa concept focused on investors and boutique developments.',
-      image: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1200&auto=format&fit=crop'
-    },
-    {
-      title: 'Modern Resort Compound',
-      description: 'Small-scale resort visualization with communal pool, masterplan and premium aesthetics.',
-      image: 'https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?q=80&w=1200&auto=format&fit=crop'
-    }
+      {
+  title: 'Shipping container Villa concept',
+  description: 'Innovative villa design using shipping containers for a modern, sustainable living experience.',
+  image: '/images/container-villa.png',
+  },
+{
+  title: 'Modern Rural house concept',
+  description: 'Contemporary rural villa design blending modern architecture with natural surroundings.',
+  image: '/images/casa-rural.png',
+  },
+{
+  title: 'Masterplan Mallorca',
+  description: 'Luxury development masterplan integrating villas, green areas and premium amenities in the mediterranean costline.',
+  image: '/images/render-mallorca.png',
+},
   ]
 
   return (
@@ -90,7 +90,7 @@ export default function RealEstateConceptPlatform() {
             <div className="absolute -inset-4 bg-gradient-to-r from-amber-500/20 to-cyan-500/20 blur-3xl rounded-full" />
 
             <img
-              src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1400&auto=format&fit=crop"
+              src="/images/villa-pool.jpg.jpg"
               alt="Luxury Villa"
               className="relative rounded-[32px] shadow-2xl border border-white/10"
             />
