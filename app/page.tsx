@@ -25,15 +25,18 @@ export default function RealEstateConceptPlatform() {
         <div className="relative max-w-7xl mx-auto px-6 py-24 grid lg:grid-cols-2 gap-14 items-center">
           <div>
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-sm mb-6">
-              AI Concept Visualization Studio
+              Horizon Habitat
+
             </div>
 
             <h1 className="text-5xl lg:text-7xl font-semibold leading-tight tracking-tight">
-              Turn land and ideas into premium villa concepts.
+              Premium visualization for villas, resorts and visionary developments.
+
             </h1>
 
             <p className="mt-6 text-lg text-white/70 max-w-xl leading-relaxed">
-              Fast AI-assisted visualizations for developers, land owners and real estate investors. Delivering concept renders, layouts and branded presentations within 24-48h.
+              AI-assisted architectural visualization and concept development for luxury real estate, hospitality and modern living projects.
+
             </p>
 
             <div className="mt-10 flex flex-wrap gap-4">
