@@ -337,7 +337,7 @@ export default function RealEstateConceptPlatform() {
 >
   WhatsApp Inquiry
 </a>
-            </button>
+
           </div>
         </div>
       </section>
