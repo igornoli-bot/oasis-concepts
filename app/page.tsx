@@ -47,10 +47,14 @@ export default function RealEstateConceptPlatform() {
   className="px-6 py-4 rounded-2xl bg-white text-black font-medium hover:scale-105 transition inline-block"
 >
   Request Concept
+<a
+  href="https://wa.me/971585503831"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="px-6 py-4 rounded-2xl border border-white/20 inline-block"
+>
+  View Portfolio
 </a>
-
-              <button className="px-6 py-4 rounded-2xl border border-white/20 hover:bg-white/5 transition">
-                View Portfolio
               <a
   href="https://wa.me/971585503831"
   target="_blank"
