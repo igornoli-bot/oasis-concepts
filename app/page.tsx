@@ -44,21 +44,25 @@ export default function RealEstateConceptPlatform() {
   href="https://wa.me/971585503831"
   target="_blank"
   rel="noopener noreferrer"
-  className="px-6 py-4 rounded-2xl bg-white text-black font-medium hover:scale-105 transition inline-block"
+  className="px-6 py-4 rounded-2xl bg-white text-black font-medium hover:scale-105 transition inline-flex items-center justify-center"
 >
   Request Concept
+</a>
+
 <a
   href="https://wa.me/971585503831"
   target="_blank"
   rel="noopener noreferrer"
-  className="px-6 py-4 rounded-2xl border border-white/20 inline-block"
+  className="px-6 py-4 rounded-2xl border border-white/20 hover:bg-white/5 transition inline-flex items-center justify-center"
 >
   View Portfolio
 </a>
-              <a
+
+<a
   href="https://wa.me/971585503831"
   target="_blank"
-  className="px-6 py-4 rounded-2xl bg-green-500 text-white font-medium hover:scale-105 transition"
+  rel="noopener noreferrer"
+  className="px-6 py-4 rounded-2xl bg-green-500 text-white font-medium hover:scale-105 transition inline-flex items-center justify-center"
 >
   WhatsApp Inquiry
 </a>
@@ -320,12 +324,19 @@ export default function RealEstateConceptPlatform() {
   href="https://wa.me/971585503831"
   target="_blank"
   rel="noopener noreferrer"
-  className="px-8 py-4 rounded-2xl bg-white text-black font-medium hover:scale-105 transition inline-block"
+  className="px-8 py-4 rounded-2xl bg-white text-black font-medium hover:scale-105 transition inline-flex items-center justify-center"
 >
   Contact Us
 </a>
-            <button className="px-8 py-4 rounded-2xl border border-white/20 hover:bg-white/5 transition">
-              WhatsApp Inquiry
+
+<a
+  href="https://wa.me/971585503831"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="px-8 py-4 rounded-2xl border border-white/20 hover:bg-white/5 transition inline-flex items-center justify-center"
+>
+  WhatsApp Inquiry
+</a>
             </button>
           </div>
         </div>
