@@ -169,6 +169,53 @@ export default function RealEstateConceptPlatform() {
     </div>
   </div>
 </section>
+<section className="max-w-7xl mx-auto px-6 py-24 border-t border-white/10">
+  <div className="mb-16">
+    <p className="text-sm uppercase tracking-[0.2em] text-white/40">
+      Process
+    </p>
+
+    <h2 className="mt-4 text-4xl lg:text-6xl font-semibold">
+      How it works
+    </h2>
+  </div>
+
+  <div className="grid md:grid-cols-4 gap-8">
+
+    <div>
+      <div className="text-5xl font-bold text-white/20">01</div>
+      <h3 className="mt-4 text-xl font-semibold">Share Your Vision</h3>
+      <p className="mt-3 text-white/60">
+        Send us your land, sketch, inspiration images or development idea.
+      </p>
+    </div>
+
+    <div>
+      <div className="text-5xl font-bold text-white/20">02</div>
+      <h3 className="mt-4 text-xl font-semibold">Concept Development</h3>
+      <p className="mt-3 text-white/60">
+        We create several architectural directions and visual concepts.
+      </p>
+    </div>
+
+    <div>
+      <div className="text-5xl font-bold text-white/20">03</div>
+      <h3 className="mt-4 text-xl font-semibold">Refinement</h3>
+      <p className="mt-3 text-white/60">
+        Selected concepts are refined according to your feedback.
+      </p>
+    </div>
+
+    <div>
+      <div className="text-5xl font-bold text-white/20">04</div>
+      <h3 className="mt-4 text-xl font-semibold">Delivery</h3>
+      <p className="mt-3 text-white/60">
+        Receive professional renders, layouts and presentation material.
+      </p>
+    </div>
+
+  </div>
+</section>
 
 <section className="max-w-7xl mx-auto px-6 py-24 border-t border-white/10">
   <div className="mb-16">
