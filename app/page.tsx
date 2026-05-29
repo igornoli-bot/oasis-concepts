@@ -25,17 +25,21 @@ export default function RealEstateConceptPlatform() {
         <div className="relative max-w-7xl mx-auto px-6 py-24 grid lg:grid-cols-2 gap-14 items-center">
           <div>
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-sm mb-6">
-              Horizon Habitat
+              <img
+  src="/images/logo-horizon-habitat.png"
+  alt="Horizon Habitat"
+  className="h-60 w-auto"
+/>
 
             </div>
 
             <h1 className="text-5xl lg:text-7xl font-semibold leading-tight tracking-tight">
-              Premium visualization for villas, resorts and visionary developments.
+              Transforming land into exceptional destinations.
 
             </h1>
 
             <p className="mt-6 text-lg text-white/70 max-w-xl leading-relaxed">
-              AI-assisted architectural visualization and concept development for luxury real estate, hospitality and modern living projects.
+              AI-assisted concept design, masterplanning and premium visualizations for villas, resorts and real estate developments.
 
             </p>
 
@@ -338,7 +342,52 @@ export default function RealEstateConceptPlatform() {
 
           </div>
         </div>
+        
       </section>
+      <footer className="border-t border-white/10 mt-24">
+  <div className="max-w-7xl mx-auto px-6 py-12 flex flex-col md:flex-row justify-between gap-8">
+
+    <div>
+      <h3 className="text-2xl font-semibold">
+        <img
+  src="/images/logo-horizon-habitat.png"
+  alt="Horizon Habitat"
+  className="h-40 w-auto"
+/>
+      </h3>
+      
+      <p className="mt-4 text-white/60 max-w-md">
+        Premium visualization for villas, resorts and visionary developments.
+      </p>
+    </div>
+
+    <div>
+      <p className="text-white/40 text-sm uppercase tracking-[0.2em]">
+        Contact
+      </p>
+
+      <a
+        href="https://wa.me/971585503831"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="block mt-4 hover:text-white"
+      >
+        WhatsApp
+      </a>
+
+      <p className="mt-2 text-white/60">
+        Dubai, UAE
+      </p>
+    </div>
+
+  </div>
+
+  <div className="border-t border-white/10">
+    <div className="max-w-7xl mx-auto px-6 py-6 text-white/40 text-sm">
+      © 2026 Horizon Habitat. All rights reserved.
+    </div>
+  </div>
+</footer>
     </div>
   )
 }
