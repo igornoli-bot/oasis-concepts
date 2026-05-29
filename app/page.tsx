@@ -1,4 +1,8 @@
+'use client'
+
+import { useState } from 'react'
 export default function RealEstateConceptPlatform() {
+  const [selectedImage, setSelectedImage] = useState<string | null>(null)
   const projects = [
       {
   title: 'Shipping container Villa concept',
@@ -51,7 +55,7 @@ export default function RealEstateConceptPlatform() {
     </a>
   </div>
 </header>
-      <section className="relative overflow-hidden border-b border-white/10" pt-24>
+  <section className="relative overflow-hidden border-b border-white/10 pt-24">
         <div className="absolute inset-0 bg-gradient-to-br from-amber-500/10 via-transparent to-cyan-500/10" />
 
         <div className="relative max-w-7xl mx-auto px-6 py-24 grid lg:grid-cols-2 gap-14 items-center">
@@ -125,10 +129,11 @@ export default function RealEstateConceptPlatform() {
             <div className="absolute -inset-4 bg-gradient-to-r from-amber-500/20 to-cyan-500/20 blur-3xl rounded-full" />
 
             <img
-              src="/images/villa-pool.jpg.jpg"
-              alt="Luxury Villa"
-              className="relative rounded-[32px] shadow-2xl border border-white/10"
-            />
+  src="/images/villa-pool.jpg.jpg"
+  alt="Luxury Villa"
+  onClick={() => setSelectedImage("/images/villa-pool.jpg.jpg")}
+  className="relative rounded-[32px] shadow-2xl border border-white/10 cursor-pointer hover:scale-[1.02] transition"
+/>
           </div>
         </div>
       </section>
@@ -274,6 +279,7 @@ export default function RealEstateConceptPlatform() {
                 <img
                   src={project.image}
                   alt={project.title}
+                  onClick={() => setSelectedImage(project.image)}
                   className="h-72 w-full object-cover group-hover:scale-105 transition duration-500"
                 />
               </div>
@@ -419,6 +425,18 @@ export default function RealEstateConceptPlatform() {
     </div>
   </div>
 </footer>
+{selectedImage && (
+  <div
+    className="fixed inset-0 z-[100] bg-black/90 flex items-center justify-center p-6"
+    onClick={() => setSelectedImage(null)}
+  >
+    <img
+      src={selectedImage}
+      alt="Portfolio preview"
+      className="max-w-[90vw] max-h-[90vh] rounded-2xl shadow-2xl"
+    />
+  </div>
+)}
     </div>
   )
 }
