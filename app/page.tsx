@@ -19,19 +19,53 @@ export default function RealEstateConceptPlatform() {
 
   return (
     <div className="min-h-screen bg-neutral-950 text-white">
-      <section className="relative overflow-hidden border-b border-white/10">
+      <header className="fixed top-0 left-0 right-0 z-50 border-b border-white/10 bg-neutral-950/70 backdrop-blur-xl">
+  <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+    <a href="#" className="flex items-center gap-3">
+      <img
+        src="/images/logo-horizon-habitat.png"
+        alt="Horizon Habitat"
+        className="h-10 w-auto"
+      />
+    </a>
+
+    <nav className="hidden md:flex items-center gap-8 text-sm text-white/70">
+      <a href="#services" className="hover:text-white transition">
+        Services
+      </a>
+      <a href="#process" className="hover:text-white transition">
+        Process
+      </a>
+      <a href="#portfolio" className="hover:text-white transition">
+        Portfolio
+      </a>
+      <a href="#contact" className="hover:text-white transition">
+        Contact
+      </a>
+    </nav>
+
+    <a
+      href="https://wa.me/971585503831"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hidden md:inline-flex px-5 py-3 rounded-full bg-white text-black text-sm font-medium hover:bg-neutral-200 transition"
+    >
+      WhatsApp
+    </a>
+  </div>
+</header>
+      <section className="relative overflow-hidden border-b border-white/10" pt-24>
         <div className="absolute inset-0 bg-gradient-to-br from-amber-500/10 via-transparent to-cyan-500/10" />
 
         <div className="relative max-w-7xl mx-auto px-6 py-24 grid lg:grid-cols-2 gap-14 items-center">
           <div>
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-sm mb-6">
-              <img
-  src="/images/logo-horizon-habitat.png"
-  alt="Horizon Habitat"
-  className="h-60 w-auto"
-/>
-
-            </div>
+<div >
+  <img
+    src="/images/logo-horizon-habitat.png"
+    alt="Horizon Habitat"
+    className="h-36 lg:h-48 w-auto"
+  />
+</div>
 
             <h1 className="text-5xl lg:text-7xl font-semibold leading-tight tracking-tight">
               Transforming land into exceptional destinations.
@@ -101,7 +135,7 @@ export default function RealEstateConceptPlatform() {
           </div>
         </div>
       </section>
-<section className="max-w-7xl mx-auto px-6 py-24 border-t border-white/10">
+<section id="services" className="max-w-7xl mx-auto px-6 py-24 border-t border-white/10">
   <div className="mb-16 max-w-3xl">
     <p className="text-sm uppercase tracking-[0.2em] text-white/40">
       Our Services
@@ -217,7 +251,7 @@ export default function RealEstateConceptPlatform() {
   </div>
 </section>
 
-      <section className="max-w-7xl mx-auto px-6 py-24">
+      <section id="portfolio" className="max-w-7xl mx-auto px-6 py-24">
         <div className="flex items-end justify-between gap-6 mb-12">
           <div>
             <p className="text-sm uppercase tracking-[0.2em] text-white/50 mb-3">
@@ -260,7 +294,7 @@ export default function RealEstateConceptPlatform() {
           ))}
         </div>
       </section>
- <section className="max-w-7xl mx-auto px-6 py-24 border-t border-white/10">
+ <section id="process" className="max-w-7xl mx-auto px-6 py-24 border-t border-white/10">
   <div className="mb-16">
     <p className="text-sm uppercase tracking-[0.2em] text-white/40">
       Process
@@ -307,7 +341,7 @@ export default function RealEstateConceptPlatform() {
 
   </div>
 </section>
-      <section className="px-6 pb-24">
+      <section id="contact" className="px-6 pb-24">
         <div className="max-w-6xl mx-auto rounded-[40px] overflow-hidden border border-white/10 bg-gradient-to-br from-white/10 to-white/5 p-12 lg:p-20 text-center">
           <p className="uppercase tracking-[0.2em] text-sm text-white/50 mb-5">
             Start today
