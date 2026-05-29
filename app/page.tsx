@@ -19,7 +19,7 @@ export default function RealEstateConceptPlatform() {
 
   return (
     <div className="min-h-screen bg-neutral-950 text-white">
-      <header className="fixed top-0 left-0 right-0 z-50 border-b border-white/10 bg-neutral-950/70 backdrop-blur-xl">
+<header className="fixed top-0 left-0 right-0 z-50 border-b border-white/10 bg-neutral-950/70 backdrop-blur-xl">
   <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
     <a href="#" className="flex items-center gap-3">
       <img
@@ -29,12 +29,9 @@ export default function RealEstateConceptPlatform() {
       />
     </a>
 
-    <nav className="hidden md:flex items-center gap-8 text-sm text-white/70">
+    <nav className="flex items-center gap-4 text-xs md:text-sm text-white/70">
       <a href="#services" className="hover:text-white transition">
         Services
-      </a>
-      <a href="#process" className="hover:text-white transition">
-        Process
       </a>
       <a href="#portfolio" className="hover:text-white transition">
         Portfolio
@@ -48,7 +45,7 @@ export default function RealEstateConceptPlatform() {
       href="https://wa.me/971585503831"
       target="_blank"
       rel="noopener noreferrer"
-      className="hidden md:inline-flex px-5 py-3 rounded-full bg-white text-black text-sm font-medium hover:bg-neutral-200 transition"
+      className="hidden sm:inline-flex px-4 py-2 rounded-full bg-white text-black text-xs font-medium hover:bg-neutral-200 transition"
     >
       WhatsApp
     </a>
