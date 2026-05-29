@@ -97,85 +97,76 @@ export default function RealEstateConceptPlatform() {
           </div>
         </div>
       </section>
-<section className="max-w-7xl mx-auto px-6 py-24">
-  <div className="mb-16">
+<section className="max-w-7xl mx-auto px-6 py-24 border-t border-white/10">
+  <div className="mb-16 max-w-3xl">
     <p className="text-sm uppercase tracking-[0.2em] text-white/40">
       Our Services
     </p>
 
-    <h2 className="mt-4 text-4xl lg:text-6xl font-semibold">
-      Premium development visualization services
+    <h2 className="mt-4 text-4xl lg:text-6xl font-semibold leading-tight">
+      From raw ideas to investor-ready concepts.
     </h2>
+
+    <p className="mt-6 text-lg text-white/60">
+      We create premium AI-assisted visualizations for real estate developers,
+      land owners, architects and hospitality brands.
+    </p>
   </div>
 
   <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-
-    <div className="rounded-3xl border border-white/10 p-8 bg-white/5">
-      <h3 className="text-2xl font-semibold">
-        Concept Visualization
-      </h3>
-
-      <p className="mt-4 text-white/60">
-        High-end AI-assisted architectural concepts for villas,
-        resorts and modern developments.
+    <div className="rounded-[32px] border border-white/10 bg-white/[0.04] p-8 hover:bg-white/[0.08] transition">
+      <p className="text-white/30 text-sm mb-8">01</p>
+      <h3 className="text-2xl font-semibold">Villa Concept Design</h3>
+      <p className="mt-4 text-white/60 leading-relaxed">
+        High-end villa concepts, architectural moods and visual directions for
+        private residences and boutique developments.
       </p>
     </div>
 
-    <div className="rounded-3xl border border-white/10 p-8 bg-white/5">
-      <h3 className="text-2xl font-semibold">
-        Masterplanning
-      </h3>
-
-      <p className="mt-4 text-white/60">
-        Conceptual layouts and development planning for boutique
-        hospitality and residential projects.
+    <div className="rounded-[32px] border border-white/10 bg-white/[0.04] p-8 hover:bg-white/[0.08] transition">
+      <p className="text-white/30 text-sm mb-8">02</p>
+      <h3 className="text-2xl font-semibold">Resort Visualization</h3>
+      <p className="mt-4 text-white/60 leading-relaxed">
+        Premium resort concepts for coastal, tropical, mountain and wellness
+        hospitality projects.
       </p>
     </div>
 
-    <div className="rounded-3xl border border-white/10 p-8 bg-white/5">
-      <h3 className="text-2xl font-semibold">
-        Investor Presentations
-      </h3>
-
-      <p className="mt-4 text-white/60">
-        Premium visuals and branded presentations to support
-        investors, developers and sales teams.
+    <div className="rounded-[32px] border border-white/10 bg-white/[0.04] p-8 hover:bg-white/[0.08] transition">
+      <p className="text-white/30 text-sm mb-8">03</p>
+      <h3 className="text-2xl font-semibold">Masterplanning</h3>
+      <p className="mt-4 text-white/60 leading-relaxed">
+        Conceptual site layouts, land-use ideas and spatial planning for
+        development opportunities.
       </p>
     </div>
 
-    <div className="rounded-3xl border border-white/10 p-8 bg-white/5">
-      <h3 className="text-2xl font-semibold">
-        Resort Concepts
-      </h3>
-
-      <p className="mt-4 text-white/60">
-        Tropical hospitality concepts designed for modern tourism
-        and experiential living.
+    <div className="rounded-[32px] border border-white/10 bg-white/[0.04] p-8 hover:bg-white/[0.08] transition">
+      <p className="text-white/30 text-sm mb-8">04</p>
+      <h3 className="text-2xl font-semibold">Investor Presentations</h3>
+      <p className="mt-4 text-white/60 leading-relaxed">
+        Branded visual decks designed to communicate concepts clearly to
+        partners, investors and clients.
       </p>
     </div>
 
-    <div className="rounded-3xl border border-white/10 p-8 bg-white/5">
-      <h3 className="text-2xl font-semibold">
-        AI-Assisted Development Design
-      </h3>
-
-      <p className="mt-4 text-white/60">
-        Fast conceptual development iterations powered by AI
-        visualization workflows.
+    <div className="rounded-[32px] border border-white/10 bg-white/[0.04] p-8 hover:bg-white/[0.08] transition">
+      <p className="text-white/30 text-sm mb-8">05</p>
+      <h3 className="text-2xl font-semibold">AI Concept Iterations</h3>
+      <p className="mt-4 text-white/60 leading-relaxed">
+        Fast visual exploration of styles, layouts, materials and atmospheres
+        before committing to full design.
       </p>
     </div>
 
-    <div className="rounded-3xl border border-white/10 p-8 bg-white/5">
-      <h3 className="text-2xl font-semibold">
-        Branded Concept Packages
-      </h3>
-
-      <p className="mt-4 text-white/60">
-        Complete concept packages including renders, layouts,
-        branding direction and presentation assets.
+    <div className="rounded-[32px] border border-white/10 bg-white/[0.04] p-8 hover:bg-white/[0.08] transition">
+      <p className="text-white/30 text-sm mb-8">06</p>
+      <h3 className="text-2xl font-semibold">Development Branding</h3>
+      <p className="mt-4 text-white/60 leading-relaxed">
+        Naming, visual identity direction and concept storytelling for premium
+        real estate projects.
       </p>
     </div>
-
   </div>
 </section>
 
