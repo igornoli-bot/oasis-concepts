@@ -172,94 +172,44 @@ export default function RealEstateConceptPlatform() {
 <section className="max-w-7xl mx-auto px-6 py-24 border-t border-white/10">
   <div className="mb-16">
     <p className="text-sm uppercase tracking-[0.2em] text-white/40">
-      Process
+      Why Horizon Habitat
     </p>
 
     <h2 className="mt-4 text-4xl lg:text-6xl font-semibold">
-      How it works
+      Built for modern developers and land owners.
     </h2>
   </div>
 
-  <div className="grid md:grid-cols-4 gap-8">
+  <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
 
-    <div>
-      <div className="text-5xl font-bold text-white/20">01</div>
-      <h3 className="mt-4 text-xl font-semibold">Share Your Vision</h3>
-      <p className="mt-3 text-white/60">
-        Send us your land, sketch, inspiration images or development idea.
-      </p>
-    </div>
-
-    <div>
-      <div className="text-5xl font-bold text-white/20">02</div>
-      <h3 className="mt-4 text-xl font-semibold">Concept Development</h3>
-      <p className="mt-3 text-white/60">
-        We create several architectural directions and visual concepts.
-      </p>
-    </div>
-
-    <div>
-      <div className="text-5xl font-bold text-white/20">03</div>
-      <h3 className="mt-4 text-xl font-semibold">Refinement</h3>
-      <p className="mt-3 text-white/60">
-        Selected concepts are refined according to your feedback.
-      </p>
-    </div>
-
-    <div>
-      <div className="text-5xl font-bold text-white/20">04</div>
-      <h3 className="mt-4 text-xl font-semibold">Delivery</h3>
-      <p className="mt-3 text-white/60">
-        Receive professional renders, layouts and presentation material.
-      </p>
-    </div>
-
-  </div>
-</section>
-
-<section className="max-w-7xl mx-auto px-6 py-24 border-t border-white/10">
-  <div className="mb-16">
-    <p className="text-sm uppercase tracking-[0.2em] text-white/40">
-      Our Process
-    </p>
-
-    <h2 className="mt-4 text-4xl lg:text-6xl font-semibold">
-      Fast and efficient concept development
-    </h2>
-  </div>
-
-  <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-    <div className="rounded-[28px] border border-white/10 bg-white/5 p-8">
-      <div className="text-5xl font-bold text-white/20">01</div>
-      <h3 className="mt-6 text-2xl font-semibold">Share Your Vision</h3>
+    <div className="rounded-[32px] border border-white/10 p-8">
+      <div className="text-5xl font-bold">24h</div>
       <p className="mt-4 text-white/60">
-        Send land plots, sketches, references or development ideas.
+        Fast concept turnaround for initial project visualization.
       </p>
     </div>
 
-    <div className="rounded-[28px] border border-white/10 bg-white/5 p-8">
-      <div className="text-5xl font-bold text-white/20">02</div>
-      <h3 className="mt-6 text-2xl font-semibold">AI Concept Creation</h3>
+    <div className="rounded-[32px] border border-white/10 p-8">
+      <div className="text-5xl font-bold">∞</div>
       <p className="mt-4 text-white/60">
-        We generate premium architectural concepts and layouts rapidly.
+        Unlimited conceptual directions and visual exploration.
       </p>
     </div>
 
-    <div className="rounded-[28px] border border-white/10 bg-white/5 p-8">
-      <div className="text-5xl font-bold text-white/20">03</div>
-      <h3 className="mt-6 text-2xl font-semibold">Refinement</h3>
+    <div className="rounded-[32px] border border-white/10 p-8">
+      <div className="text-5xl font-bold">3D</div>
       <p className="mt-4 text-white/60">
-        Concepts are refined for branding, aesthetics and presentation quality.
+        Villas, resorts, masterplans and hospitality concepts.
       </p>
     </div>
 
-    <div className="rounded-[28px] border border-white/10 bg-white/5 p-8">
-      <div className="text-5xl font-bold text-white/20">04</div>
-      <h3 className="mt-6 text-2xl font-semibold">Delivery</h3>
+    <div className="rounded-[32px] border border-white/10 p-8">
+      <div className="text-5xl font-bold">100%</div>
       <p className="mt-4 text-white/60">
-        Final concepts delivered within 24-48 hours ready for investors or clients.
+        Presentation-ready visuals for clients and investors.
       </p>
     </div>
+
   </div>
 </section>
 
@@ -306,43 +256,53 @@ export default function RealEstateConceptPlatform() {
           ))}
         </div>
       </section>
-      <section className="border-t border-white/10">
-        <div className="max-w-5xl mx-auto px-6 py-24 text-center">
-          <p className="text-sm uppercase tracking-[0.2em] text-white/50 mb-4">
-            How it works
-          </p>
+ <section className="max-w-7xl mx-auto px-6 py-24 border-t border-white/10">
+  <div className="mb-16">
+    <p className="text-sm uppercase tracking-[0.2em] text-white/40">
+      Process
+    </p>
 
-          <h2 className="text-5xl font-semibold leading-tight">
-            Send your plot. Receive a premium concept.
-          </h2>
+    <h2 className="mt-4 text-4xl lg:text-6xl font-semibold">
+      How it works
+    </h2>
+  </div>
 
-          <div className="grid md:grid-cols-3 gap-8 mt-16 text-left">
-            <div className="p-8 rounded-[28px] bg-white/5 border border-white/10">
-              <div className="text-5xl font-semibold text-white/20">01</div>
-              <h3 className="text-2xl mt-6 mb-3 font-medium">Share your idea</h3>
-              <p className="text-white/65 leading-relaxed">
-                Send a plot image, dimensions or rough sketch with your vision.
-              </p>
-            </div>
+  <div className="grid md:grid-cols-4 gap-8">
 
-            <div className="p-8 rounded-[28px] bg-white/5 border border-white/10">
-              <div className="text-5xl font-semibold text-white/20">02</div>
-              <h3 className="text-2xl mt-6 mb-3 font-medium">We visualize it</h3>
-              <p className="text-white/65 leading-relaxed">
-                AI-assisted luxury renders, layouts and development concepts are generated rapidly.
-              </p>
-            </div>
+    <div>
+      <div className="text-5xl font-bold text-white/20">01</div>
+      <h3 className="mt-4 text-xl font-semibold">Share Your Vision</h3>
+      <p className="mt-3 text-white/60">
+        Send us your land, sketch, inspiration images or development idea.
+      </p>
+    </div>
 
-            <div className="p-8 rounded-[28px] bg-white/5 border border-white/10">
-              <div className="text-5xl font-semibold text-white/20">03</div>
-              <h3 className="text-2xl mt-6 mb-3 font-medium">Present & sell</h3>
-              <p className="text-white/65 leading-relaxed">
-                Use the visuals for investors, clients, feasibility discussions or marketing.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+    <div>
+      <div className="text-5xl font-bold text-white/20">02</div>
+      <h3 className="mt-4 text-xl font-semibold">Concept Development</h3>
+      <p className="mt-3 text-white/60">
+        We create several architectural directions and visual concepts.
+      </p>
+    </div>
+
+    <div>
+      <div className="text-5xl font-bold text-white/20">03</div>
+      <h3 className="mt-4 text-xl font-semibold">Refinement</h3>
+      <p className="mt-3 text-white/60">
+        Selected concepts are refined according to your feedback.
+      </p>
+    </div>
+
+    <div>
+      <div className="text-5xl font-bold text-white/20">04</div>
+      <h3 className="mt-4 text-xl font-semibold">Delivery</h3>
+      <p className="mt-3 text-white/60">
+        Receive professional renders, layouts and presentation material.
+      </p>
+    </div>
+
+  </div>
+</section>
       <section className="px-6 pb-24">
         <div className="max-w-6xl mx-auto rounded-[40px] overflow-hidden border border-white/10 bg-gradient-to-br from-white/10 to-white/5 p-12 lg:p-20 text-center">
           <p className="uppercase tracking-[0.2em] text-sm text-white/50 mb-5">
