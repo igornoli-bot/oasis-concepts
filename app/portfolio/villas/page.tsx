@@ -108,18 +108,18 @@ const projects = [
 )}
 {selectedProject && (
   <div
-    className="fixed inset-0 z-[100] bg-black/90 flex items-center justify-center p-6"
+  className="fixed inset-0 z-[100] bg-black/90 overflow-y-auto p-4 md:p-6"
     onClick={() => setSelectedProject(null)}
   >
     <div
-      className="max-w-6xl w-full rounded-[32px] overflow-hidden bg-neutral-950 border border-white/10 grid lg:grid-cols-2"
+      className="my-6 mx-auto max-w-6xl w-full rounded-[32px] overflow-hidden bg-neutral-950 border border-white/10 grid lg:grid-cols-2"
       onClick={(e) => e.stopPropagation()}
     >
 <div className="grid gap-4">
   <img
     src={selectedProject.image}
     alt={selectedProject.title}
-    className="h-full min-h-[420px] w-full object-cover"
+    className="h-72 md:h-full md:min-h-[420px] w-full object-cover"
   />
 
   {selectedProject.secondaryImage && (
