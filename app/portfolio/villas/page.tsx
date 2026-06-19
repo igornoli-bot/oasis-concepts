@@ -14,7 +14,7 @@ const projects = [
     description:
       "Two-storey tropical villa with pool integration, open living spaces and garden connection.",
     image: "/images/villa-pool.jpg",
-    secondaryImage: "/images/villa-pool.jpg",
+    secondaryImage: "/images/interior-luxury.png",
     services: [
   "3D site mapping",
   "Concept consultancy",
@@ -29,7 +29,7 @@ const projects = [
   status: "Delivered Concept",  
     description: "Rural container villa concept with pool, warm interiors and mountain landscape views.",
     image: "/images/container-villa.png",
-    secondaryImage: "/images/villa-pool.jpg",
+    secondaryImage: "/images/interior-rural.png",
     services: [
   "3D site mapping",
   "Concept consultancy",
@@ -44,7 +44,7 @@ const projects = [
   status: "Delivered Concept",  
     description: "Contemporary countryside home concept blending modern architecture with natural surroundings.",
     image: "/images/casa-rural.png",
-    secondaryImage: "/images/villa-pool.jpg",
+    secondaryImage: "/images/view-container.png",
     services: [
   "3D site mapping",
   "Concept consultancy",
