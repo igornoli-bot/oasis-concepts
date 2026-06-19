@@ -62,22 +62,18 @@ export default function MasterplansPage() {
   />
 
   <div className="absolute inset-0 bg-black/70 opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col justify-center items-center text-center p-8">
-    <p className="text-sm uppercase tracking-[0.2em] text-white/50">
-      {project.category}
-    </p>
 
-    <h2 className="mt-4 text-3xl font-semibold">
-      {project.title}
-    </h2>
+  <p>{project.category}</p>
 
-    <p className="mt-4 text-white/70 leading-relaxed">
-      {project.description}
-    </p>
+  <h2>{project.title}</h2>
 
-    <span className="mt-6 text-white font-medium">
-      View Project →
-    </span>
-  </div>
+  <p>{project.description}</p>
+
+  <span>
+    View Project →
+  </span>
+
+</div>
 </div>
           ))}
         </div>
