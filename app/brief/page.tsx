@@ -50,7 +50,7 @@ ${notes}`
         <div className="mt-12 space-y-6">
 
           <input
-            placeholder="Project Type (Villa, Resort, Landmark...)"
+            placeholder="Project Type (Villa, Resort, Resort...)"
             value={projectType}
             onChange={(e) => setProjectType(e.target.value)}
             className="w-full rounded-2xl bg-white/5 border border-white/10 p-4"

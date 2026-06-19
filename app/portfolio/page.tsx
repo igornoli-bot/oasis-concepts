@@ -4,7 +4,7 @@ export default function PortfolioPage() {
       title: "Villas",
       description:
         "Private residences, tropical villas, container architecture and luxury living concepts.",
-      image: "/images/villa-croatia.png",
+      image: "/images/villa-pool.jpg",
       href: "/portfolio/villas",
     },
     {
@@ -15,11 +15,11 @@ export default function PortfolioPage() {
       href: "/portfolio/masterplans",
     },
     {
-      title: "Landmarks",
+      title: "Resorts",
       description:
         "Iconic architectural concepts, destination buildings and signature developments.",
       image: "/images/container-villa.png",
-      href: "/portfolio/landmarks",
+      href: "/portfolio/Resorts",
     },
   ]
 
@@ -41,7 +41,7 @@ export default function PortfolioPage() {
 
           <p className="mt-6 text-lg text-white/60">
             A curated collection of AI-assisted architectural concepts for
-            villas, masterplans and landmark developments.
+            villas, masterplans and Resort developments.
           </p>
         </div>
 

@@ -1,4 +1,4 @@
-export default function LandmarksPage() {
+export default function ResortsPage() {
   return (
     <main className="min-h-screen bg-neutral-950 text-white px-6 py-16">
       <div className="max-w-7xl mx-auto">
@@ -7,7 +7,7 @@ export default function LandmarksPage() {
         </a>
 
         <h1 className="mt-12 text-5xl lg:text-7xl font-semibold">
-          Landmarks
+          Resorts
         </h1>
 
         <p className="mt-6 text-white/60 max-w-2xl">
