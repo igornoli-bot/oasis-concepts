@@ -4,7 +4,7 @@ export default function PortfolioPage() {
       title: "Villas",
       description:
         "Private residences, tropical villas, container architecture and luxury living concepts.",
-      image: "/images/villa-pool.jpg",
+      image: "/images/villa-croatia.png",
       href: "/portfolio/villas",
     },
     {
