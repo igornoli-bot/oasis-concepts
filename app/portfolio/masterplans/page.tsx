@@ -135,8 +135,8 @@ alt={` ${selectedProject.title} secondary `}
           </p>
 
           <div className="mt-4 flex flex-wrap gap-3">
-{selectedProject.services?.map((service) => (
-                  <span
+{selectedProject.services?.map((service: string) => (
+                    <span
                 key={service}
                 className="rounded-full border border-white/10 px-4 py-2 text-sm text-white/70 bg-white/[0.04]"
               >
