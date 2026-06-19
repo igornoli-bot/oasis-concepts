@@ -80,7 +80,7 @@ export default function RealEstateConceptPlatform() {
 
             <div className="mt-10 flex flex-wrap gap-4">
               <a
-  href="https://wa.me/971585503831"
+  href="/brief"
   target="_blank"
   rel="noopener noreferrer"
   className="px-6 py-4 rounded-2xl bg-white text-black font-medium hover:scale-105 transition inline-flex items-center justify-center"
