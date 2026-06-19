@@ -37,7 +37,7 @@ export default function RealEstateConceptPlatform() {
       <a href="#services" className="hover:text-white transition">
         Services
       </a>
-      <a href="#portfolio" className="hover:text-white transition">
+      <a href="/portfolio" className="hover:text-white transition">
         Portfolio
       </a>
       <a href="#contact" className="hover:text-white transition">
@@ -89,10 +89,8 @@ export default function RealEstateConceptPlatform() {
 </a>
 
 <a
-  href="https://wa.me/971585503831"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="px-6 py-4 rounded-2xl border border-white/20 hover:bg-white/5 transition inline-flex items-center justify-center"
+  href="/portfolio"
+  className="px-6 py-4 rounded-2xl border border-white/20 hover:bg-white/5"
 >
   View Portfolio
 </a>
@@ -129,9 +127,9 @@ export default function RealEstateConceptPlatform() {
             <div className="absolute -inset-4 bg-gradient-to-r from-amber-500/20 to-cyan-500/20 blur-3xl rounded-full" />
 
             <img
-  src="/images/villa-pool.jpg.jpg"
+  src="/images/villa-pool.jpg"
   alt="Luxury Villa"
-  onClick={() => setSelectedImage("/images/villa-pool.jpg.jpg")}
+  onClick={() => setSelectedImage("/images/villa-pool.jpg")}
   className="relative rounded-[32px] shadow-2xl border border-white/10 cursor-pointer hover:scale-[1.02] transition"
 />
           </div>
