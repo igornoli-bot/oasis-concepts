@@ -29,7 +29,7 @@ const projects = [
   status: "Delivered Concept",  
     description: "Rural container villa concept with pool, warm interiors and mountain landscape views.",
     image: "/images/container-villa.png",
-    secondaryImage: "/images/interior-rural.png",
+    secondaryImage: "/images/view-container.png",
     services: [
   "3D site mapping",
   "Concept consultancy",
@@ -44,7 +44,7 @@ const projects = [
   status: "Delivered Concept",  
     description: "Contemporary countryside home concept blending modern architecture with natural surroundings.",
     image: "/images/casa-rural.png",
-    secondaryImage: "/images/view-container.png",
+    secondaryImage: "/images/interior-rural.png",
     services: [
   "3D site mapping",
   "Concept consultancy",
