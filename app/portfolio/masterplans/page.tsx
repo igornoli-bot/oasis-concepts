@@ -25,8 +25,7 @@ export default function MasterplansPage() {
   return (
     <main className="min-h-screen bg-neutral-950 text-white px-6 py-16">
       <div className="max-w-7xl mx-auto">
-<div className="flex gap-6 mb-10">
-  <a
+<div className="flex flex-col gap-4 mb-10">  <a
     href="/"
     className="text-white/60 hover:text-white transition"
   >
