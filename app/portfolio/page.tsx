@@ -18,7 +18,7 @@ export default function PortfolioPage() {
       title: "Resorts",
       description:
         "Iconic architectural concepts, destination buildings and signature developments.",
-      image: "/images/villa-croatia.png",
+      image: "/images/Hvar-resort2.png",
       href: "/portfolio/resorts",
     },
   ]

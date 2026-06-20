@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+
 export default function MasterplansPage() {
   const [selectedProject, setSelectedProject] = useState<any | null>(null)
   const projects = [
@@ -12,7 +13,8 @@ export default function MasterplansPage() {
     location: "Mallorca, Spain",
     description: "Luxury development masterplan integrating villas, green areas, water features and hospitality spaces.",
     image: "/images/render-mallorca.png",
-    secondaryImage: "/images/render-mallorca.png",
+    secondaryImage: "/images/render-mallorca1.png",
+    thirdImage: "/images/render-mallorca2.png",
     services: [
   "3D masterplan visualization",
   "Site layout consultancy",
@@ -22,8 +24,7 @@ export default function MasterplansPage() {
   },
 ]
 
-  return 
-  (
+  return   (
     <main className="min-h-screen bg-neutral-950 text-white px-6 py-16">
       <div className="max-w-7xl mx-auto">
 <div className="flex flex-col gap-4 mb-10">
