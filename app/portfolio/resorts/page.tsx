@@ -1,8 +1,8 @@
-export default function ResortsPage() {
   'use client'
-  
-  import { useState } from 'react'
-  export default function MasterplansPage() {
+
+import { useState } from 'react'
+
+export default function ResortsPage() {
     const [selectedProject, setSelectedProject] = useState<any | null>(null)
     const projects = [
     {
