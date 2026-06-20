@@ -12,8 +12,8 @@ export default function ResortsPage() {
   status: "delivered concept",
   delivery: "48 Hours",
   description:  "A cliffside retreat on the Croatian coast. Luxury resort concept nestled into the hills of Hvar, Croatia.",
-  image: "/images/hvar-resort.png",
-  secondaryImage: "/images/hvar-resort2.png",
+  image: "/images/Hvar-resort.png",
+  secondaryImage: "/images/Hvar-resort2.png",
   thirdImage: "/images/hvar-house.png",
   services: [
     "Resort concept visualization",
