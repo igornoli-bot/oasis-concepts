@@ -22,6 +22,40 @@ const projects = [
   "Confidential development study",
 ],
   },
+   {
+    title: "Tropical Courtyard Villa",
+    category: "Private Residence",
+ location: "Chiang Mai, Thailand",
+  status: "Delivered Concept",   
+   timeline: "24-48h concept delivery",
+    description:
+      "A contemporary tropical retreat centered around a private pool, featuring open-plan living spaces, floor-to-ceiling glass, and seamless indoor-outdoor living.",
+    image: "/images/thailand1.png",
+    secondaryImage: "/images/thailand2.png",
+    services: [
+  "3D site mapping",
+  "Concept consultancy",
+  "Private client brief",
+  "Confidential development study",
+],
+  },
+   {
+    title: "Contemporary Jungle Villa",
+    category: "Private Residence",
+ location: "Monteverde, Costa Rica",
+  status: "Delivered Concept",   
+   timeline: "24-48h concept delivery",
+    description:
+      "A contemporary jungle retreat featuring open-plan living spaces, floor-to-ceiling glass, and seamless indoor-outdoor living.",
+    image: "/images/costarica2.png",
+    secondaryImage: "/images/costarica3.png",
+    services: [
+  "3D site mapping",
+  "Concept consultancy",
+  "Private client brief",
+  "Confidential development study",
+],
+  },
   {
     title: "Mountain Container Villa",
     category: "Modular Residence",
