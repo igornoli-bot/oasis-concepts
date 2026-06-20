@@ -11,8 +11,7 @@ export default function ResortsPage() {
   location: "Hvar, Croatia",
   status: "delivered concept",
   delivery: "48 Hours",
-  description:
-    "A Cliffside Retreat on the Croatian Coast: A resort concept nestled into the cliffs of Hvar, Croatia, offering stunning sea views, infinity pools and luxurious amenities for an unforgettable coastal escape.",
+  description:  "A cliffside retreat on the Croatian coast. Luxury resort concept nestled into the hills of Hvar, Croatia.",
   image: "/images/hvar-resort.png",
   secondaryImage: "/images/hvar-resort2.png",
   thirdImage: "/images/hvar-house.png",
@@ -191,3 +190,4 @@ export default function ResortsPage() {
       )}
     </main>
   )
+  }
